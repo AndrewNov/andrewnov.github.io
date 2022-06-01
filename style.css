@@ -55,12 +55,12 @@ a {
 
 .projects,
 .link-projects {
-  background: var(--egg-shell);
+  background: var(--purple-brown);
 }
 
 .find-me,
 .link-find-me {
-  background: var(--dark-peach);
+  background: var(--purple-brown);
 }
 
 .transition {
@@ -84,12 +84,12 @@ a {
 
 .transition-projects {
   left: 7.5rem;
-  background: var(--egg-shell);
+  background: var(--purple-brown);
 }
 
 .transition-find-me {
   left: 15rem;
-  background: var(--dark-peach);
+  background: var(--purple-brown);
 }
 
 .bio .transition-bio,
