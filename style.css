@@ -27,9 +27,6 @@ a {
   transition: background 0s 1s, color 0.6s;
 }
 
-.projects {
-  color: var(--purple-brown);
-}
 
 .bg:after {
   content: "";
