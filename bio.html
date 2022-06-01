@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div :class="['bg', bg]">
+    <header>
+      <h1>About</h1>
+    </header>
+    <div class="dots dots1"></div>
+    <div class="dots dots2"></div>
+    <main>
+      <transition name="slide-fade" mode="out-in">
+        <p key="bio" v-if="bg==='bio'">Hi! 
+       I am a PhD student in <a href="https://phd-ai-society.di.unipi.it/"> Artificial Intelligence for Society</a> at University of Pisa.
+    </p>
+    </main>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
