@@ -149,7 +149,7 @@ a {
 
 .projects .dots:before,
 .projects .dots:after {
-  background-image: linear-gradient(var(--purple-brown) 20%, transparent 0);
+  background-image: linear-gradient(var(--egg-shell) 20%, transparent 0);
 }
 
 .find-me .dots:before,
