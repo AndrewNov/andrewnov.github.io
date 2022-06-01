@@ -54,6 +54,9 @@ a {
 .link-projects {
   background: var(--purple-brown);
 }
+.projects h1 {
+  background-color: var(--dark-peach);
+}
 
 .find-me,
 .link-find-me {
